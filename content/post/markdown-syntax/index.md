@@ -1,5 +1,5 @@
 ---
-title: Markdown Syntax Guide
+title: Markdown Syntax Guide - phatbs21
 date: 2023-09-07
 description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 tags: 
