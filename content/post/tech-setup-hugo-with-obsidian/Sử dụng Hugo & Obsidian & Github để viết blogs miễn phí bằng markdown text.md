@@ -242,7 +242,7 @@ Nếu bạn không đang sử dụng laptop của mình thì có thể sử dụ
 
 1. Vào repo của blogs trên github và chọn code -> Create codespace on master
 
-![attachments/IMG-20250302071259049.png](attachments\IMG-20250302071259049.png)
+![IMG-20250302071259049](attachments/IMG-20250302071259049.png)
 
 2. Vào thư mục content/post -> tạo một folder mới và copy toàn bộ file từ hugo vào đây (trong hình là ví dụ với folder hello_world)
 
@@ -250,10 +250,10 @@ Nếu bạn không đang sử dụng laptop của mình thì có thể sử dụ
 
 3. Thêm message (Bắt buộc) -> commit -> yes -> sync changes
 
-![attachments/IMG-20250302072425483.png](attachments\IMG-20250302072425483.png)
+![IMG-20250302072425483](attachments/IMG-20250302072425483.png)
 
 Với những bài viết lần sau, khi đã đã có sẵn codespace thì bạn nhớ pull nó xuống trước để tránh conflict nhé
 
-![](attachments/IMG-20250302172031023.png)
+![](attachments/IMG-20250302175618282.png)
 
 Phù, vậy là xong rồi. Nếu bạn có thắc mắc thì thì comment bên dưới để mình giúp đỡ nhé
