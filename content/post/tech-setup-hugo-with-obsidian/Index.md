@@ -32,11 +32,11 @@ Với những bạn xài windows thì cách dễ nhất để cài là download 
 
 Không thấy file hugo_extended ? Nó nằm ở đây:
 
-![](IMG-20250302172135534.png)
+![](attachments/IMG-20250302181058803.png)
 
 Sau đó thêm C:\Hugo (Folder chứa hugo.exe) vào [environments path](https://vi.101-help.com/cach-them-bien-moi-truong-path-cua-windows-3f256ab251/) (system variables)
 
-![](IMG-20250302172125329.png)
+![](attachments/IMG-20250302181058885.png)
 
 Trong phần prerequisites có yêu cầu tải thêm hai phần mềm khác để Hugo hoạt động là [Git](https://git-scm.com/downloads/win) và [Go](https://go.dev/dl/) để phần mềm hoạt động. Bạn nhớ tải và cài đặt nhé (next next next là được)
 
@@ -59,7 +59,7 @@ Download file [obsidian-export-x86_64-pc-windows-msvc](https://github.com/zoni/o
 
 ## Github
 
-Có một host và domain free với đuôi github.io đồng thời có github action giúp việc update bài lên được tự động hoá. Bài viết này giả định bạn đã biết sử dụng github. Với các bạn non-tech thì có thể kéo xuống cuối \[bài viết này\](# GitHub là gì? Giới thiệu tính năng và hướng dẫn cài đặt GitHub) để xem cách dùng
+Có một host và domain free với đuôi github.io đồng thời có github action giúp việc update bài lên được tự động hoá. Bài viết này giả định bạn đã biết sử dụng github. Với các bạn non-tech thì có thể kéo xuống cuối [bài viết này](https://topdev.vn/blog/github-la-gi/) để xem cách dùng
 
 # Mục tiêu của việc combine những thứ này lại
 
@@ -170,15 +170,15 @@ Vậy là đã xong phần hugo, tiếp theo mình sẽ setup và obsidian và o
 
 Tạo folder blogs trong obsidian của bạn
 
-![](attachments/IMG-20250302172059935.png)
+![](attachments/IMG-20250302181058976.png)
 
 Sau đó tắt `wikilink` và chỉnh `location của new attachments` `New Link format` vào thư mục hiện tại:
 
-![](attachments/IMG-20250302175151458.png)
+![](attachments/IMG-20250302181059011.png)
 
 Và chỉnh lại template để thuận tiện thêm bài post mới trong tương lai (Bạn vui lòng chỉnh *Template* lại theo ý của bạn)
 
-![](attachments/IMG-20250302172924610.png)
+![](attachments/IMG-20250302181059056.png)
 
 File template hiện tại mình đang sử dụng, bạn có thể kham khảo
 
@@ -242,18 +242,18 @@ Nếu bạn không đang sử dụng laptop của mình thì có thể sử dụ
 
 1. Vào repo của blogs trên github và chọn code -> Create codespace on master
 
-![IMG-20250302071259049](attachments/IMG-20250302071259049.png)
+![IMG-20250302071259049](attachments/IMG-20250302181059106.png)
 
 2. Vào thư mục content/post -> tạo một folder mới và copy toàn bộ file từ hugo vào đây (trong hình là ví dụ với folder hello_world)
 
-![IMG-20250302072238586](attachments/IMG-20250302072238586.png)
+![IMG-20250302072238586](attachments/IMG-20250302181059163.png)
 
 3. Thêm message (Bắt buộc) -> commit -> yes -> sync changes
 
-![IMG-20250302072425483](attachments/IMG-20250302072425483.png)
+![IMG-20250302072425483](attachments/IMG-20250302181059213.png)
 
 Với những bài viết lần sau, khi đã đã có sẵn codespace thì bạn nhớ pull nó xuống trước để tránh conflict nhé
 
-![](attachments/IMG-20250302175618282.png)
+![](attachments/IMG-20250302181059263.png)
 
 Phù, vậy là xong rồi. Nếu bạn có thắc mắc thì thì comment bên dưới để mình giúp đỡ nhé
